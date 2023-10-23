@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Montserrat:wght@200&family=Roboto+Mono:wght@300&family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Manrope:wght@300;400&family=Montserrat:wght@200&family=Roboto+Mono:wght@300&family=Tilt+Neon&display=swap');
+*{
+  margin: 0%;  
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  width: 50rem;
+}
+ul{
+  display: flex;
+  list-style-type: none;
+  margin-left: 46rem;
+  align-items: right;
+  background-color: #0077FF;
+
+}
+li{
+ width: fit-content;
+ font-style: italic;
+ font-size: 2rem;
+ margin-right: 3rem;
+ font-family: 'Tilt Neon', sans-serif
+}
+li a{
+  display: block;
+  text-decoration: none;
+  color: darkblue;
+  padding: 10px 10px;
+}
+li a:hover{
+  background-color:white;
+  color:blue;
+  border-radius: 5px;
+} 
+.text{
+  font-size: xx-large;
+}
+.heading{
+  margin-left: 8rem;
+  margin-top: 12rem;
+  font-size: xx-large;
+  font-family: 'Manrope', sans-serif;
+}
+.container{
+  float: right;
+  width: 50rem;
+  height: 40rem;
+  background-color: #0077FF; 
+  border-bottom-left-radius: 30rem;
+
+}
+p{
+  margin-top: 2rem;
+}
+button{
+  margin-top: 3rem;
+  font-size: 2rem;
+  border-radius: 10px;
+}
+.hover-button {
+  background-color: #0077FF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.hover-button:hover {
+  background-color: #0055CC;
+}
+
+
+
+
